@@ -9,9 +9,9 @@ services:
       # server public url
       - PUBLIC_URL=
       # option, remote storager config, s3://ENDPOINT:AK:SK:BUCKET, alioss://ENDPOINT:AK:SK:BUCKET, qiniu://[ZONE]:AK:SK:BUCKET
-      - REMOTE=
+      - REMOTE=alioss://ENDPOINT:AK:SK:BUCKET
       # option, remote storager public url, https://cdn.example.com
-      - REMOTE_URL=
+      - REMOTE_URL=https://12zpus.oss-cn-hangzhou.aliyuncs.com/
       # option, metadata storage path, use random secret path to keep your metadata safer in case of remote storage
       - META_PATH=appList.json
       # delete app enabled, true/false
